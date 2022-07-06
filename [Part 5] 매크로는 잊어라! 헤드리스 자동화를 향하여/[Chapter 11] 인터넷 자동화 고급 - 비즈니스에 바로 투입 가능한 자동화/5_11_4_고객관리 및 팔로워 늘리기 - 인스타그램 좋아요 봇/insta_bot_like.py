@@ -34,7 +34,7 @@ class LikeBot:
     def save_screenshot(self, filename):
         self.driver.save_screenshot(filename)
     
-    def refresh(self):
+    def driver_refresh(self):
         self.driver.refresh()
 
     # 인스타그램 로그인 함수입니다.
