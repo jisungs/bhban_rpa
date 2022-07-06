@@ -34,6 +34,7 @@ class NewsBot:
         self.driver.quit()
 
     # 로그인을 수행하는 메서드입니다.
+    #트위터 로그인 프로세스 변경으로 함수 변경 필요 
     def login(self, id, ps):
         # 트위터 로그인창으로 들어갑니다.
         self.driver.get("https://twitter.com/login")
